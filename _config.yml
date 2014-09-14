@@ -1,0 +1,15 @@
+# Build settings
+markdown: kramdown
+# Site settings
+title: Caleb Makes a Game
+description: > #
+  They say that anyone can climb a mountain by taking one step at a time. This is
+  how I will build a game. Every day I will post my progress, large or small, and
+  eventually I will summit this mountain.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cable729.github.io/calebmakesagame" # the base hostname & protocol for your site
+twitter_username: cable729
+github_username:  cable729
+
+# Build settings
+markdown: kramdown
