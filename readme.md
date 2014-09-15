@@ -9,4 +9,6 @@
 
 # Rakefile
 
-Copied from [gummesson/jekyll-rake-boilerplate](https://github.com/gummesson/jekyll-rake-boilerplate). View instructions there.
+Usage:
+
+    > rake post title="post title" tags="tag1 tag2"
