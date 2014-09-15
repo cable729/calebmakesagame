@@ -6,3 +6,7 @@
 ```
         > jekyll serve --watch --baseurl ''
 ```
+
+# Rakefile
+
+Copied from [gummesson/jekyll-rake-boilerplate](https://github.com/gummesson/jekyll-rake-boilerplate). View instructions there.
