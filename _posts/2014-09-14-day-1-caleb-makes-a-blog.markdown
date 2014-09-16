@@ -2,7 +2,8 @@
 layout: post
 title:  "Day 1 - Caleb Makes a Blog"
 date:   2014-09-14
-tags: [blog, meta]
+tags: [blog, daily, meta]
+time: 2
 ---
 
 Hello, my name is Caleb. The posts you'll read in this blog are here for two reasons: accountability and documentation. I want to hold myself accountable. To me, to you, and to my game. I will post my progress every day and I will do something every day, no matter how tiny.

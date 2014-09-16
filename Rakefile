@@ -18,6 +18,7 @@ layout: post
 title: #{title}
 date: #{Date.today}
 tags: [#{tags.split(' ').join(', ')}]
+time: 
 ---
 }
     end
