@@ -3,7 +3,7 @@ layout: post
 title: Day 4 - Of mazes and men
 date: 2014-09-17
 tags: [blog]
-time: 
+time:  0.5
 ---
 
 So I was writing out how I wanted RKR to work, and I realized that for a multiplayer game to work, it has to have a lot of replay-ability. Now RKR surely does have this, but to what audience? It is PvE in essence, making it a game like pacman or donkey kong. I got to thinking that the reason this game succeeded is partially due to the fact that players could play other mini games in Warcraft 3 when they were tired of RKR.
