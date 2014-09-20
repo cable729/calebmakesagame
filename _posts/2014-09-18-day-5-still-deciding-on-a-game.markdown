@@ -34,7 +34,7 @@ I played this map in a multiplayer environment, so I see racing and quick thinki
 Here's some links to some game engines for the browser:
 
 - [http://html5gameengine.com/tag/2d]()
-- [http://melonjs.org/]()
-- [http://html5quintus.com/]()
+- [](http://melonjs.org/)
+- [](http://html5quintus.com/)
 
 I'm thinking that HTML5 Canvas and JS may be the way to go. Easy to show progress! I particularly like melonjs. I think tomorrow I'll set up a project and see what I can fiddle around with.
