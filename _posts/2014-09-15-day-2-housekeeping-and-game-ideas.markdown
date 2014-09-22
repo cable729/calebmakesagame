@@ -3,7 +3,7 @@ layout: post
 title: Day 2 - Housekeeping and Game Ideas
 date: 2014-09-15
 tags: [blog, daily, game-ideas]
-time: 
+time: 30
 ---
 
 First, I'd like to start off by saying I had mixed feelings coming back the second day. Already? Yes, I know! Procrastination and motivation are hard tasks to fell. Thankfully, now that I'm working on this again I'm really excited to put up some of the game ideas I've been wanting to work on for a while.

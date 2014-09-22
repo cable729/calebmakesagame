@@ -3,7 +3,7 @@ layout: post
 title: Day 3 - What am I looking for in a game?
 date: 2014-09-16
 tags: [blog]
-time: 0.25
+time: 15
 ---
 
 This is going to have to be short, since I don't have much time (25 minutes til midnight). I'll list off some attributes I've appreciated in games before:

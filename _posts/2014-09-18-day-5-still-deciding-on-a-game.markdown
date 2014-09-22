@@ -3,7 +3,7 @@ layout: post
 title: Day 5 - Still deciding on a game
 date: 2014-09-18
 tags: [blog]
-time: 
+time: 15
 ---
 
 ## GDC... of UNL
