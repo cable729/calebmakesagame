@@ -18,7 +18,7 @@ Here's what it looks like being rendered in the game.
 
 Kind of stretched, the debug panel is stretched. I'm not sure what the problem is here, but a quick Google result turns up nothing. I need to look more into it to see if I can fix this, but in the meantime I bought Unreal Engine 4.
 
-![bough unreal]({{ site.baseurl }}/assets/day7_boughtunreal.png)
+![bought unreal]({{ site.baseurl }}/assets/day7_boughtunreal.png)
 
 It might be just as easy to make a game in Unreal as it is in here. I don't know, but I'm excited to mess around in UE4!
 
