@@ -2,9 +2,27 @@ require 'time'
 
 desc 'create a new post'
 task :post do
+    posts = Dir.entries("_posts")
+    posts = posts[2, posts.length - 2]
+
+    maxDay = 0
+    posts.each do |item|
+        day = /-day-(\d*)/.match(item)[1].to_i
+        if day > maxDay
+            maxDay = day
+        end
+    end
+
     title = ENV['title']
-    tags = ENV['tags'] || ''
-    slug = "#{Date.today}-#{title.downcase.gsub(/[^\w]+/, '-').squeeze('-')}"
+    if !title
+        print "Title: "
+        title = $stdin.gets.chomp
+    end
+
+    title = "Day #{maxDay + 1} - #{title}"
+    title = title.downcase.gsub(/'/, '').gsub(/[^\w]+/, '-').squeeze('-').gsub(/^-|-$/, '')
+    tags = ENV['tags'] || 'blog'
+    slug = "#{Date.today}-#{title}"
 
     file = File.join(
         File.dirname(__FILE__),
@@ -22,4 +40,6 @@ time:
 ---
 }
     end
+
+    puts "Created new post with slug \"#{slug}\""
 end
