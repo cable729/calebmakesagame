@@ -61,7 +61,7 @@ end
 
 desc 'publishes everything'
 task :publish do
-    system "git add ."
-    system "git commit -m 'Publish day #{get_day}'"
+    system "git add -A"
+    system "git commit -m \"Publish day #{get_day}\""
     system "git push"
 end
