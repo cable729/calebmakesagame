@@ -1,1 +1,1 @@
-rake post
+rake post editor="subl.exe"

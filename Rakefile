@@ -1,7 +1,6 @@
 require 'time'
 
-desc 'create a new post'
-task :post do
+def get_day
     posts = Dir.entries("_posts")
     posts = posts[2, posts.length - 2]
 
@@ -12,6 +11,13 @@ task :post do
             maxDay = day
         end
     end
+
+    maxDay
+end
+
+desc 'create a new post'
+task :post do
+    maxDay = get_day
 
     title = ENV['title']
     if !title
@@ -42,4 +48,20 @@ time:
     end
 
     puts "Created new post with slug \"#{slug}\""
+
+    if ENV['editor']
+        system "#{ENV['editor']} _posts/#{slug}.markdown"
+    end
+end
+
+desc 'get current day'
+task :get_day do
+    puts get_day
+end
+
+desc 'publishes everything'
+task :publish do
+    system "git add ."
+    system "git commit -m 'Publish day #{get_day}'"
+    system "git push"
 end
