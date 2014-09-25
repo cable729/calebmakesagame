@@ -1,6 +1,6 @@
 ---
 layout: post
-title: day-10-messed-around-with-some-more-sample-projects
+title: Day 10 - Messed around with some more sample projects
 date: 2014-09-23
 tags: [blog]
 time: 45

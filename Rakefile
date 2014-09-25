@@ -26,9 +26,8 @@ task :post do
     end
 
     title = "Day #{maxDay + 1} - #{title}"
-    title = title.downcase.gsub(/'/, '').gsub(/[^\w]+/, '-').squeeze('-').gsub(/^-|-$/, '')
-    tags = ENV['tags'] || 'blog'
-    slug = "#{Date.today}-#{title}"
+    slug = title.downcase.gsub(/'/, '').gsub(/[^\w]+/, '-').squeeze('-').gsub(/^-|-$/, '')
+    slug = "#{Date.today}-#{slug}"
 
     file = File.join(
         File.dirname(__FILE__),
@@ -36,6 +35,8 @@ task :post do
         slug + '.markdown'
     )
 
+    tags = ENV['tags'] || 'blog'
+    
     File.open(file, "w") do |f|
         f << %{---
 layout: post
