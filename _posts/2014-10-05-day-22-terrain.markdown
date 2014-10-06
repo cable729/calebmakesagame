@@ -1,0 +1,9 @@
+---
+layout: post
+title: Day 22 - Terrain
+date: 2014-10-05
+tags: [blog]
+time: 15
+---
+
+I created a new level for the new map. There's terrain and stuff, yay.
